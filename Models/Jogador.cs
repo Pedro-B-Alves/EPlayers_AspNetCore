@@ -9,11 +9,12 @@ namespace EPlayers_AspNetCore.Models
         public int IdJogador { get; set; }
         public string Nome { get; set; }
         public int IdEquipe { get; set; }
+
         // Login
         public string Email { get; set; }
         public string Senha { get; set; }
         
-        private const string PATH = "Database/Jogador.csv";
+        public string PATH = "Database/Jogador.csv";
 
         public Jogador()
         {

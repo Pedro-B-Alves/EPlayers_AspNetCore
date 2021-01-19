@@ -3,7 +3,11 @@
     ViewData["Title"] = "Equipes";
 }
 
-<form method="POST" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
+<div class="titulo_pagina">
+    <h1>cadastro de @ViewData["Title"]</h1>
+</div>
+
+<form class="cadastro" method="POST" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
     <div class="campo">
         <label>ID</label>
         <input type="text" name="IdEquipe">
