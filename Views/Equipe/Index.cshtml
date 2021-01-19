@@ -10,12 +10,12 @@
 <form class="cadastro" method="POST" action='@Url.Action("Cadastrar")' enctype="multipart/form-data">
     <div class="campo">
         <label>ID</label>
-        <input type="text" name="IdEquipe">
+        <input type="text" name="IdEquipe" required >
     </div>
     
     <div class="campo">
         <label>Nome</label>
-        <input type="text" name="Nome" />
+        <input type="text" name="Nome" required />
     </div>
 
     <div class="campo">
